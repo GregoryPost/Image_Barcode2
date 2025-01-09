@@ -52,6 +52,7 @@ class Image_Barcode2
      * Barcode type
      */
     const BARCODE_CODE39    = 'code39';
+    const BARCODE_CODE39EXT    = 'code39ext';
     const BARCODE_INT25     = 'int25';
     const BARCODE_EAN13     = 'ean13';
     const BARCODE_UPCA      = 'upca';

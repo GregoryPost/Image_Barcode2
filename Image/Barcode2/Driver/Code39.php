@@ -48,7 +48,7 @@ class Image_Barcode2_Driver_Code39 extends Image_Barcode2_Common implements Imag
      * Coding map
      * @var array
      */
-    private $_codingmap = array(
+    protected $_codingmap = array(
         '0' => '000110100',
         '1' => '100100001',
         '2' => '001100001',
