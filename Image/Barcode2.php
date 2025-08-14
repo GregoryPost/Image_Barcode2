@@ -109,7 +109,7 @@ class Image_Barcode2
         $rotation = Image_Barcode2::ROTATE_NONE
     ) {
         //Make sure no bad files are included
-        if (!preg_match('/^[a-z0-9]+$/', $type)) {
+        if (!preg_match('/^[a-z0-9]+$/i', $type)) {
             throw new Image_Barcode2_Exception('Invalid barcode type ' . $type);
         }
 
